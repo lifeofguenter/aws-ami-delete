@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='aws-ami-delete',
-    version='0.0.0',
+    version='0.0.1',
     author='Gunter Grodotzki',
     author_email='gunter@grodotzki.co.za',
     description='Delete AMIs - optionally from a packer manifest.json.',
