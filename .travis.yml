@@ -6,7 +6,9 @@ python:
   - '3.8'
   - '3.9'
 
-script: make build
+script:
+  - printenv
+  - make build
 
 deploy:
   provider: pypi
