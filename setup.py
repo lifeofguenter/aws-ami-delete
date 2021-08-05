@@ -5,10 +5,10 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='aws-ami-delete',
-    version='0.0.1',
-    author='Gunter Grodotzki',
-    author_email='gunter@grodotzki.co.za',
-    description='Delete AMIs - optionally from a packer manifest.json.',
+    version='0.0.2',
+    author='Günter Grodotzki',
+    author_email='gunter@grodotzki.com',
+    description='Delete AMIs - optionally from a packer manifest.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/lifeofguenter/aws-ami-delete',
