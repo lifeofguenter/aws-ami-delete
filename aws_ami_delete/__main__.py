@@ -30,7 +30,6 @@ def cli() -> None:
         for build in manifest['builds']:
             if build['packer_run_uuid'] == manifest['last_run_uuid']:
                 image_ids.extend(build['artifact_id'].split(','))
-                break
 
     for image_id in image_ids:
         if ':' in image_id:
