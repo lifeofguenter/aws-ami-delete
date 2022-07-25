@@ -21,7 +21,7 @@ jobs:
         python-version: ['3.7', '3.8', '3.9', '3.10']
 
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: build binaries
+      - name: Build
         run: make build
 
       - name: Publish to PyPI

@@ -1,5 +1,7 @@
 # aws-ami-delete
 
+[![build and publish](https://github.com/lifeofguenter/aws-ami-delete/actions/workflows/build-and-publish.yml/badge.svg)](https://github.com/lifeofguenter/aws-ami-delete/actions/workflows/build-and-publish.yml)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/lifeofguenter/aws-ami-delete.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/lifeofguenter/aws-ami-delete/context:python)
 [![PyPI](https://img.shields.io/pypi/v/aws-ami-delete.svg)](https://pypi.org/project/aws-ami-delete/)
 [![License](https://img.shields.io/github/license/lifeofguenter/aws-ami-delete.svg)](LICENSE)
 
